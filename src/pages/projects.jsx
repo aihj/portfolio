@@ -24,11 +24,6 @@ const Projects = () => {
 
 	return (
 		<React.Fragment>
-
-			
-			
-
-
 			<Helmet>
 				<title>{`Projects | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -48,18 +43,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Project Experience
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							그동안 회사 및 부트캠프에서 진행했던 프로젝트들은 다음과 같으며, 부분적으로 github에서 코드 열람이 가능합니다. 
 						</div>
 
 						<div className="projects-list">
